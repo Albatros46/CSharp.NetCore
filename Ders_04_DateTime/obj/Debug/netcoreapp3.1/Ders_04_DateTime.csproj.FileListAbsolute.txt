@@ -1,0 +1,13 @@
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_04_DateTime\bin\Debug\netcoreapp3.1\Ders_04_DateTime.exe
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_04_DateTime\bin\Debug\netcoreapp3.1\Ders_04_DateTime.deps.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_04_DateTime\bin\Debug\netcoreapp3.1\Ders_04_DateTime.runtimeconfig.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_04_DateTime\bin\Debug\netcoreapp3.1\Ders_04_DateTime.runtimeconfig.dev.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_04_DateTime\bin\Debug\netcoreapp3.1\Ders_04_DateTime.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_04_DateTime\bin\Debug\netcoreapp3.1\Ders_04_DateTime.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_04_DateTime\obj\Debug\netcoreapp3.1\Ders_04_DateTime.csprojAssemblyReference.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_04_DateTime\obj\Debug\netcoreapp3.1\Ders_04_DateTime.AssemblyInfoInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_04_DateTime\obj\Debug\netcoreapp3.1\Ders_04_DateTime.AssemblyInfo.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_04_DateTime\obj\Debug\netcoreapp3.1\Ders_04_DateTime.csproj.CoreCompileInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_04_DateTime\obj\Debug\netcoreapp3.1\Ders_04_DateTime.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_04_DateTime\obj\Debug\netcoreapp3.1\Ders_04_DateTime.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_04_DateTime\obj\Debug\netcoreapp3.1\Ders_04_DateTime.genruntimeconfig.cache

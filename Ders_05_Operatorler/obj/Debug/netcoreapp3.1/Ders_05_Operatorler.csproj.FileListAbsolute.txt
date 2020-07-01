@@ -1,0 +1,13 @@
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_05_Operatorler\bin\Debug\netcoreapp3.1\Ders_05_Operatorler.exe
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_05_Operatorler\bin\Debug\netcoreapp3.1\Ders_05_Operatorler.deps.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_05_Operatorler\bin\Debug\netcoreapp3.1\Ders_05_Operatorler.runtimeconfig.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_05_Operatorler\bin\Debug\netcoreapp3.1\Ders_05_Operatorler.runtimeconfig.dev.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_05_Operatorler\bin\Debug\netcoreapp3.1\Ders_05_Operatorler.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_05_Operatorler\bin\Debug\netcoreapp3.1\Ders_05_Operatorler.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_05_Operatorler\obj\Debug\netcoreapp3.1\Ders_05_Operatorler.csprojAssemblyReference.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_05_Operatorler\obj\Debug\netcoreapp3.1\Ders_05_Operatorler.AssemblyInfoInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_05_Operatorler\obj\Debug\netcoreapp3.1\Ders_05_Operatorler.AssemblyInfo.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_05_Operatorler\obj\Debug\netcoreapp3.1\Ders_05_Operatorler.csproj.CoreCompileInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_05_Operatorler\obj\Debug\netcoreapp3.1\Ders_05_Operatorler.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_05_Operatorler\obj\Debug\netcoreapp3.1\Ders_05_Operatorler.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_05_Operatorler\obj\Debug\netcoreapp3.1\Ders_05_Operatorler.genruntimeconfig.cache
