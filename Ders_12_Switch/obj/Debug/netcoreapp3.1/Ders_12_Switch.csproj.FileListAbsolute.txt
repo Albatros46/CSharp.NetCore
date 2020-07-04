@@ -1,0 +1,13 @@
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_12_Switch\bin\Debug\netcoreapp3.1\Ders_12_Switch.exe
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_12_Switch\bin\Debug\netcoreapp3.1\Ders_12_Switch.deps.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_12_Switch\bin\Debug\netcoreapp3.1\Ders_12_Switch.runtimeconfig.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_12_Switch\bin\Debug\netcoreapp3.1\Ders_12_Switch.runtimeconfig.dev.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_12_Switch\bin\Debug\netcoreapp3.1\Ders_12_Switch.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_12_Switch\bin\Debug\netcoreapp3.1\Ders_12_Switch.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_12_Switch\obj\Debug\netcoreapp3.1\Ders_12_Switch.csprojAssemblyReference.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_12_Switch\obj\Debug\netcoreapp3.1\Ders_12_Switch.AssemblyInfoInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_12_Switch\obj\Debug\netcoreapp3.1\Ders_12_Switch.AssemblyInfo.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_12_Switch\obj\Debug\netcoreapp3.1\Ders_12_Switch.csproj.CoreCompileInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_12_Switch\obj\Debug\netcoreapp3.1\Ders_12_Switch.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_12_Switch\obj\Debug\netcoreapp3.1\Ders_12_Switch.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_12_Switch\obj\Debug\netcoreapp3.1\Ders_12_Switch.genruntimeconfig.cache
