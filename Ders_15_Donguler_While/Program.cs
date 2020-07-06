@@ -20,6 +20,22 @@ namespace Ders_15_Donguler_While
                 }
                 
             }
+            string name="";
+            while (string.IsNullOrEmpty(name))//name değişlenini boş mu kontrol ediyor.
+            {//şartlar olustuktan sonra iç kodlar çalışır
+                Console.Write("İsminiz :"+name);
+                name=Console.ReadLine();
+            }
+            Console.WriteLine("Merhaba "+name);
+            Console.WriteLine($"Merhaba {name}");
+            Console.WriteLine("----do-while dongusu-----");
+            //----do-while dongusu
+            string isim="";
+            do//kodlar calıştıktan sonra şart gerçekleşir
+            {
+                Console.Write("İsminiz :"+isim);
+                isim=Console.ReadLine();
+            } while (string.IsNullOrEmpty(isim));
         }
     }
 }
