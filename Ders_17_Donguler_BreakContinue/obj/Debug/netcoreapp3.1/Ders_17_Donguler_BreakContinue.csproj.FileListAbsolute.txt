@@ -1,0 +1,13 @@
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_17_Donguler_BreakContinue\bin\Debug\netcoreapp3.1\Ders_17_Donguler_BreakContinue.exe
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_17_Donguler_BreakContinue\bin\Debug\netcoreapp3.1\Ders_17_Donguler_BreakContinue.deps.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_17_Donguler_BreakContinue\bin\Debug\netcoreapp3.1\Ders_17_Donguler_BreakContinue.runtimeconfig.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_17_Donguler_BreakContinue\bin\Debug\netcoreapp3.1\Ders_17_Donguler_BreakContinue.runtimeconfig.dev.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_17_Donguler_BreakContinue\bin\Debug\netcoreapp3.1\Ders_17_Donguler_BreakContinue.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_17_Donguler_BreakContinue\bin\Debug\netcoreapp3.1\Ders_17_Donguler_BreakContinue.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_17_Donguler_BreakContinue\obj\Debug\netcoreapp3.1\Ders_17_Donguler_BreakContinue.csprojAssemblyReference.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_17_Donguler_BreakContinue\obj\Debug\netcoreapp3.1\Ders_17_Donguler_BreakContinue.AssemblyInfoInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_17_Donguler_BreakContinue\obj\Debug\netcoreapp3.1\Ders_17_Donguler_BreakContinue.AssemblyInfo.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_17_Donguler_BreakContinue\obj\Debug\netcoreapp3.1\Ders_17_Donguler_BreakContinue.csproj.CoreCompileInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_17_Donguler_BreakContinue\obj\Debug\netcoreapp3.1\Ders_17_Donguler_BreakContinue.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_17_Donguler_BreakContinue\obj\Debug\netcoreapp3.1\Ders_17_Donguler_BreakContinue.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_17_Donguler_BreakContinue\obj\Debug\netcoreapp3.1\Ders_17_Donguler_BreakContinue.genruntimeconfig.cache
