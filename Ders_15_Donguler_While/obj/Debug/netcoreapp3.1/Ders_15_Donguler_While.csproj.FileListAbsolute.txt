@@ -1,0 +1,13 @@
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_15_Donguler_While\bin\Debug\netcoreapp3.1\Ders_15_Donguler_While.exe
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_15_Donguler_While\bin\Debug\netcoreapp3.1\Ders_15_Donguler_While.deps.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_15_Donguler_While\bin\Debug\netcoreapp3.1\Ders_15_Donguler_While.runtimeconfig.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_15_Donguler_While\bin\Debug\netcoreapp3.1\Ders_15_Donguler_While.runtimeconfig.dev.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_15_Donguler_While\bin\Debug\netcoreapp3.1\Ders_15_Donguler_While.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_15_Donguler_While\bin\Debug\netcoreapp3.1\Ders_15_Donguler_While.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_15_Donguler_While\obj\Debug\netcoreapp3.1\Ders_15_Donguler_While.csprojAssemblyReference.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_15_Donguler_While\obj\Debug\netcoreapp3.1\Ders_15_Donguler_While.AssemblyInfoInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_15_Donguler_While\obj\Debug\netcoreapp3.1\Ders_15_Donguler_While.AssemblyInfo.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_15_Donguler_While\obj\Debug\netcoreapp3.1\Ders_15_Donguler_While.csproj.CoreCompileInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_15_Donguler_While\obj\Debug\netcoreapp3.1\Ders_15_Donguler_While.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_15_Donguler_While\obj\Debug\netcoreapp3.1\Ders_15_Donguler_While.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_15_Donguler_While\obj\Debug\netcoreapp3.1\Ders_15_Donguler_While.genruntimeconfig.cache
