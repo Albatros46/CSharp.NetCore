@@ -1,0 +1,13 @@
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_16_Donguler_Uygulama2\bin\Debug\netcoreapp3.1\Ders_16_Donguler_Uygulama2.exe
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_16_Donguler_Uygulama2\bin\Debug\netcoreapp3.1\Ders_16_Donguler_Uygulama2.deps.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_16_Donguler_Uygulama2\bin\Debug\netcoreapp3.1\Ders_16_Donguler_Uygulama2.runtimeconfig.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_16_Donguler_Uygulama2\bin\Debug\netcoreapp3.1\Ders_16_Donguler_Uygulama2.runtimeconfig.dev.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_16_Donguler_Uygulama2\bin\Debug\netcoreapp3.1\Ders_16_Donguler_Uygulama2.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_16_Donguler_Uygulama2\bin\Debug\netcoreapp3.1\Ders_16_Donguler_Uygulama2.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_16_Donguler_Uygulama2\obj\Debug\netcoreapp3.1\Ders_16_Donguler_Uygulama2.csprojAssemblyReference.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_16_Donguler_Uygulama2\obj\Debug\netcoreapp3.1\Ders_16_Donguler_Uygulama2.AssemblyInfoInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_16_Donguler_Uygulama2\obj\Debug\netcoreapp3.1\Ders_16_Donguler_Uygulama2.AssemblyInfo.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_16_Donguler_Uygulama2\obj\Debug\netcoreapp3.1\Ders_16_Donguler_Uygulama2.csproj.CoreCompileInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_16_Donguler_Uygulama2\obj\Debug\netcoreapp3.1\Ders_16_Donguler_Uygulama2.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_16_Donguler_Uygulama2\obj\Debug\netcoreapp3.1\Ders_16_Donguler_Uygulama2.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_16_Donguler_Uygulama2\obj\Debug\netcoreapp3.1\Ders_16_Donguler_Uygulama2.genruntimeconfig.cache
