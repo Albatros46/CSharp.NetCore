@@ -1,0 +1,13 @@
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_19_Donguler_Bankamatik\bin\Debug\netcoreapp3.1\Ders_19_Donguler_Bankamatik.exe
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_19_Donguler_Bankamatik\bin\Debug\netcoreapp3.1\Ders_19_Donguler_Bankamatik.deps.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_19_Donguler_Bankamatik\bin\Debug\netcoreapp3.1\Ders_19_Donguler_Bankamatik.runtimeconfig.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_19_Donguler_Bankamatik\bin\Debug\netcoreapp3.1\Ders_19_Donguler_Bankamatik.runtimeconfig.dev.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_19_Donguler_Bankamatik\bin\Debug\netcoreapp3.1\Ders_19_Donguler_Bankamatik.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_19_Donguler_Bankamatik\bin\Debug\netcoreapp3.1\Ders_19_Donguler_Bankamatik.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_19_Donguler_Bankamatik\obj\Debug\netcoreapp3.1\Ders_19_Donguler_Bankamatik.csprojAssemblyReference.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_19_Donguler_Bankamatik\obj\Debug\netcoreapp3.1\Ders_19_Donguler_Bankamatik.AssemblyInfoInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_19_Donguler_Bankamatik\obj\Debug\netcoreapp3.1\Ders_19_Donguler_Bankamatik.AssemblyInfo.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_19_Donguler_Bankamatik\obj\Debug\netcoreapp3.1\Ders_19_Donguler_Bankamatik.csproj.CoreCompileInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_19_Donguler_Bankamatik\obj\Debug\netcoreapp3.1\Ders_19_Donguler_Bankamatik.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_19_Donguler_Bankamatik\obj\Debug\netcoreapp3.1\Ders_19_Donguler_Bankamatik.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_19_Donguler_Bankamatik\obj\Debug\netcoreapp3.1\Ders_19_Donguler_Bankamatik.genruntimeconfig.cache
