@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace Ders_20_Nesne_Class
-{
+{// Yeni Proje ve dosya olusturmak icin -> dotnet new console -o  Ders_
     class ogrenci{
         //Ogrenci adinda nesne olusturduk
         public int OgrnNo { get; set; }
@@ -9,7 +9,7 @@ namespace Ders_20_Nesne_Class
         public string Sube { get; set; }
     }
     class Program
-    {// Yeni Proje ve dosya olusturmak icin -> dotnet new console -o  Ders_
+    {
         static void Main(string[] args)
         {
             int[] ogrno={100,200,300,400,500};
