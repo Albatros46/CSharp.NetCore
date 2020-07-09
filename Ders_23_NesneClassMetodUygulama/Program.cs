@@ -8,6 +8,14 @@ namespace Ders_23_NesneClassMetodUygulama
         public int Toplama(int x, int y){
             return x+y;
         }
+        public int Top(params int [] sayilar){
+            int top=0;//params ile parametreleri dizi halinde gonderebiliriz.
+            foreach (var item in sayilar)
+            {
+                top+=item;
+            }
+            return top;
+        }
 
     }
     class Araba{
@@ -62,8 +70,16 @@ namespace Ders_23_NesneClassMetodUygulama
         static void Main(string[] args)
         {
             var islem=new Islem();
-            
+            Console.Write("params ile diziyi parametre olarak gonderme...");
+            Console.WriteLine("Params kullanımı :"+islem.Top(50));
+            Console.WriteLine("Params kullanımı :"+islem.Top(50,45));
+            Console.WriteLine("Params kullanımı :"+islem.Top(50,45,67));
+            Console.WriteLine("Params kullanımı :"+islem.Top(50,45,67,78));
+            Console.WriteLine("Params kullanımı :"+islem.Top(50,45,67,78,90));
+            //----------------------------------
+            Console.WriteLine("PAramatreli değişken---------------");
             Console.WriteLine(islem.Toplama(20,30));
+            Console.WriteLine(islem.Toplama(x:50,y:80));//named parametr
             var a1=new Araba(){Marka="Opel",Model="Astra",Renk="Kırmızı",Otomatik=false};
             var a2=new Araba(){Marka="Ford",Model="Mustang",Renk="Metalik Gri",Otomatik=true};
             a2.Menu();
