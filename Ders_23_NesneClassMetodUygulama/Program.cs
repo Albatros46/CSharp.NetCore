@@ -2,6 +2,14 @@
 
 namespace Ders_23_NesneClassMetodUygulama
 {// Yeni Proje ve dosya olusturmak icin -> dotnet new console -o  Ders_
+    class Islem{
+        //Parametreli Metodlar
+       
+        public int Toplama(int x, int y){
+            return x+y;
+        }
+
+    }
     class Araba{
         public string Marka { get; set; }
         public string Model { get; set; }
@@ -53,6 +61,9 @@ namespace Ders_23_NesneClassMetodUygulama
     {
         static void Main(string[] args)
         {
+            var islem=new Islem();
+            
+            Console.WriteLine(islem.Toplama(20,30));
             var a1=new Araba(){Marka="Opel",Model="Astra",Renk="Kırmızı",Otomatik=false};
             var a2=new Araba(){Marka="Ford",Model="Mustang",Renk="Metalik Gri",Otomatik=true};
             a2.Menu();
