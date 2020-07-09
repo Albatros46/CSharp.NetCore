@@ -13,7 +13,7 @@ namespace Ders_19_Donguler_Bankamatik
             string secim="";
             double bakiye=0;
             double ekhesap=1000;
-            double ekhesaplimit=1000;
+           
             do
             {
             Console.Write("1-Bakiye Görüntüle\n2-Para Yatırma\n3-Para Çekme\n4-Çıkış\nSeçim :");
