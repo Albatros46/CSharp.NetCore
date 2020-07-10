@@ -1,0 +1,13 @@
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_26_NesneUygulamaYapiciMetod\bin\Debug\netcoreapp3.1\Ders_26_NesneUygulamaYapiciMetod.exe
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_26_NesneUygulamaYapiciMetod\bin\Debug\netcoreapp3.1\Ders_26_NesneUygulamaYapiciMetod.deps.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_26_NesneUygulamaYapiciMetod\bin\Debug\netcoreapp3.1\Ders_26_NesneUygulamaYapiciMetod.runtimeconfig.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_26_NesneUygulamaYapiciMetod\bin\Debug\netcoreapp3.1\Ders_26_NesneUygulamaYapiciMetod.runtimeconfig.dev.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_26_NesneUygulamaYapiciMetod\bin\Debug\netcoreapp3.1\Ders_26_NesneUygulamaYapiciMetod.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_26_NesneUygulamaYapiciMetod\bin\Debug\netcoreapp3.1\Ders_26_NesneUygulamaYapiciMetod.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_26_NesneUygulamaYapiciMetod\obj\Debug\netcoreapp3.1\Ders_26_NesneUygulamaYapiciMetod.csprojAssemblyReference.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_26_NesneUygulamaYapiciMetod\obj\Debug\netcoreapp3.1\Ders_26_NesneUygulamaYapiciMetod.AssemblyInfoInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_26_NesneUygulamaYapiciMetod\obj\Debug\netcoreapp3.1\Ders_26_NesneUygulamaYapiciMetod.AssemblyInfo.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_26_NesneUygulamaYapiciMetod\obj\Debug\netcoreapp3.1\Ders_26_NesneUygulamaYapiciMetod.csproj.CoreCompileInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_26_NesneUygulamaYapiciMetod\obj\Debug\netcoreapp3.1\Ders_26_NesneUygulamaYapiciMetod.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_26_NesneUygulamaYapiciMetod\obj\Debug\netcoreapp3.1\Ders_26_NesneUygulamaYapiciMetod.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_26_NesneUygulamaYapiciMetod\obj\Debug\netcoreapp3.1\Ders_26_NesneUygulamaYapiciMetod.genruntimeconfig.cache
