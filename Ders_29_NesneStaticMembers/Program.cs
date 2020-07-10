@@ -44,6 +44,7 @@ namespace Ders_29_NesneStaticMembers
             string str="ölçme ve değerlendirme";
             var result= HelperMetods.KarakterDuzelt(str);
             Console.WriteLine(result);
+            Math.Sqrt(9);//math sınıfı da static class tir
         }
     }
 }
