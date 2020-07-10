@@ -1,0 +1,4 @@
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_27_NesneProperties\obj\Debug\netcoreapp3.1\Ders_27_NesneProperties.csprojAssemblyReference.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_27_NesneProperties\obj\Debug\netcoreapp3.1\Ders_27_NesneProperties.AssemblyInfoInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_27_NesneProperties\obj\Debug\netcoreapp3.1\Ders_27_NesneProperties.AssemblyInfo.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_27_NesneProperties\obj\Debug\netcoreapp3.1\Ders_27_NesneProperties.csproj.CoreCompileInputs.cache
