@@ -1,0 +1,13 @@
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_28_NesneUygulama\obj\Debug\netcoreapp3.1\Ders_28_NesneUygulama.csprojAssemblyReference.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_28_NesneUygulama\obj\Debug\netcoreapp3.1\Ders_28_NesneUygulama.AssemblyInfoInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_28_NesneUygulama\obj\Debug\netcoreapp3.1\Ders_28_NesneUygulama.AssemblyInfo.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_28_NesneUygulama\obj\Debug\netcoreapp3.1\Ders_28_NesneUygulama.csproj.CoreCompileInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_28_NesneUygulama\bin\Debug\netcoreapp3.1\Ders_28_NesneUygulama.exe
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_28_NesneUygulama\bin\Debug\netcoreapp3.1\Ders_28_NesneUygulama.deps.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_28_NesneUygulama\bin\Debug\netcoreapp3.1\Ders_28_NesneUygulama.runtimeconfig.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_28_NesneUygulama\bin\Debug\netcoreapp3.1\Ders_28_NesneUygulama.runtimeconfig.dev.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_28_NesneUygulama\bin\Debug\netcoreapp3.1\Ders_28_NesneUygulama.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_28_NesneUygulama\bin\Debug\netcoreapp3.1\Ders_28_NesneUygulama.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_28_NesneUygulama\obj\Debug\netcoreapp3.1\Ders_28_NesneUygulama.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_28_NesneUygulama\obj\Debug\netcoreapp3.1\Ders_28_NesneUygulama.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_28_NesneUygulama\obj\Debug\netcoreapp3.1\Ders_28_NesneUygulama.genruntimeconfig.cache
