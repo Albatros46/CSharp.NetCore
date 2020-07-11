@@ -24,11 +24,24 @@ namespace Ders_30_NesneStaticMembersUygulama
         public static Product[] GetProducts(){
             return Products; //ProductManager deki listeye metod araciliği ile erisecegiz
         }
+        public static Product GetProductById(int id){
+            //disaridan girilen id ye gore ürün getirecek
+            Product product=null;
+            foreach (var p in Products)
+            {
+                if(p.ProductId==id)
+                    product=p;
+            }
+            return product;
+        }
     }
     class Program
     {
         static void Main(string[] args)
         {
+            var product=ProductManager.GetProductById(2); //id 2 olan urun getirilsin
+            Console.WriteLine($"Urun Id:{product.ProductId} Urun Adı :{product.ProductName} Fiyatı :{product.Price} Onalı Mı? {product.IsApproved}");
+            Console.WriteLine("----------------------------------");
             var products=ProductManager.GetProducts();
             foreach (var p1 in products)
             {
