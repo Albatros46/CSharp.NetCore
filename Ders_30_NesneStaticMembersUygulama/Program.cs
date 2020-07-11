@@ -34,6 +34,20 @@ namespace Ders_30_NesneStaticMembersUygulama
             }
             return product;
         }
+        public static Product GetProductByName(string name){
+            Product product=null;
+            foreach (var p in Products)
+            {
+                if (p.ProductName.Contains(name.ToLower()))
+                {
+                    product=p;
+                    break;//bulduğu ilk kayıtta dursun
+                }
+            }
+
+            return product;
+
+        }
     }
     class Program
     {
@@ -41,6 +55,9 @@ namespace Ders_30_NesneStaticMembersUygulama
         {
             var product=ProductManager.GetProductById(2); //id 2 olan urun getirilsin
             Console.WriteLine($"Urun Id:{product.ProductId} Urun Adı :{product.ProductName} Fiyatı :{product.Price} Onalı Mı? {product.IsApproved}");
+            Console.WriteLine("----------------------------------");
+            var product1=ProductManager.GetProductByName("Iphone 7 Plus");
+            Console.WriteLine($"Urun Id:{product1.ProductId} Urun Adı :{product1.ProductName} Fiyatı :{product1.Price} Onalı Mı? {product1.IsApproved}");
             Console.WriteLine("----------------------------------");
             var products=ProductManager.GetProducts();
             foreach (var p1 in products)
