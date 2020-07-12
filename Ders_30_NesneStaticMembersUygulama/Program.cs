@@ -12,7 +12,7 @@ namespace Ders_30_NesneStaticMembersUygulama
     static class ProductManager //veritabani mantığını burda gosterecegiz.
     {
         static Product[] Products; //public olmadiği icin disaridan erisim olmayacak metod ile erisim olacak
-        static ProductManager Program()//constructor ismi public veya static olmayacak
+        static ProductManager ()//constructor ismi public veya static olmayacak
         {
             Products=new Product[5];//product dizini 5 elemanlı olacak
             Products[0]=new Product{ProductId=1,ProductName="Iphone 7",Price=4250,IsApproved=true};
