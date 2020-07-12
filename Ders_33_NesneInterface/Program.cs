@@ -7,7 +7,7 @@ namespace Ders_33_NesneInterface //Interface Kullanımı
         string adsoyad{get; set;} //public vs gibi erişim belirteci kullanilmaz
         string adres{get; set;}
         string departman { get; set; }
-        double maas{get; set;}
+        
         void bilgi();//gövdesiz metod tanımlariz.Interface içinde olduğundan varsayılan olarak abstract class tırlar
 
     }
@@ -18,6 +18,7 @@ namespace Ders_33_NesneInterface //Interface Kullanımı
             this.adsoyad=_adsoyad;
             this.adres=_adres;
             this.departman=_departman;
+            
         }
         public string adsoyad{get;set; }
         public string adres{get;set; }
@@ -43,12 +44,7 @@ namespace Ders_33_NesneInterface //Interface Kullanımı
             Console.WriteLine($"Adı Soyadı:{this.adsoyad} Departmanı:{this.departman} Adresi:{this.adres}");
         }
     }
-    class Robot : IPersonel
-    {
-        public Robot()
-        {
-        }
-    }
+  
     class Program//Interface
     {
         static void Main(string[] args)
