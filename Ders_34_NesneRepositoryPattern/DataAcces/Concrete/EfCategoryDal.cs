@@ -3,13 +3,13 @@ namespace Ders_34_NesneRepositoryPattern.DataAcces.Concrete
 {//Projemizde veritabanı görevi gorecek.
     public class EfCategoryDal
     {
-        public Product GetById(int id){
-            return new Product();
+        public Category GetById(int id){
+            return new Category();
         }
-        public void Update(Product entity){
+        public void Update(Category entity){
 
         }
-        public void Create(Product entity){
+        public void Create(Category entity){
 
         }
         public void Delete(int id){
