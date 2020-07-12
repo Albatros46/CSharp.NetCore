@@ -2,7 +2,7 @@
 
 namespace Ders_32_NesneAbstract
 {// Yeni Proje ve dosya olusturmak icin -> dotnet new console -o  Ders_
-   class Person{
+    abstract class Person{
         public string Name { get; set; }//Ad
         public string  SurName { get; set; }//Soyad
         public Person(string name, string surname) //Yazdırma yapacağımız metod(constructor)
@@ -11,10 +11,10 @@ namespace Ders_32_NesneAbstract
             this.SurName=surname;
             Console.WriteLine("Person Nesnesi Oluşturuldu.");
         }
-        public virtual void Intro(){ //virtual anahtar kelimesi ekleyerek student class da bu metodu override yapabiliriz
-            Console.WriteLine($"Adı :{this.Name} Soyadı :{this.SurName}");
-            
+        public void Greeting(){
+            Console.WriteLine("Ben Öğretmenim.");
         }
+        public abstract void Intro(); //abstract metod kullanmak icin class da abstract olmalı
     }
     class Student:Person{ //Student class i Person class in özelliklerine sahip olacak
         public int StudentNumber { get; set; }
@@ -40,17 +40,49 @@ namespace Ders_32_NesneAbstract
             Console.WriteLine($"Adı :{this.Name} Soyadı :{this.SurName} Bırans:{this.Brans}");
         }
     }
+    class Shape{
+        public int Width { get; set; }//Genişlik
+        public int Height { get; set; }//Yükseklik
+        public virtual void Draw(){ //temel sınıf içindeki tanimlamaları kullanmak istemirsak virtual yerine abstract yazariz.
+            Console.WriteLine("Şekil Çiziliyor.");
+        }
+    }
+    class Square:Shape{
+        public override void Draw(){
+            Console.WriteLine("KARE Şekili Çiziliyor.");
+        }
+    }
+    class  Rectangle:Shape{
+        public override void Draw(){ //override edilmesi için temel class da virtual edilmeli.
+            base.Draw();//ile temel siniftaki metodu da çağırabiliriz.
+            Console.WriteLine("DAİRE Şekili Çiziliyor.");
+            
+        }
+    }
     class Program
     {
         static void Main(string[] args)
         {
             //Abstract Class: Soyut Class
-            var p=new Person("Servet","AKÇADAĞ"); //yorum satırı yapsak ta
+            //Abstract siniftan obje turetilemez
             var s=new Student("Akif","AKÇADAĞ",101);   //student nesnesi çalıştığında ilk once person nesnesi olusur
             var t=new Teacher("Ahmet","Akçadağ","3D Tasarım Öğretmeni");
-            p.Intro();
+            t.Greeting();
+            s.Greeting();
             s.Intro();
             t.Intro();
+            Console.WriteLine("|------------------------|");
+            Console.WriteLine("*********ŞEKİL***********");
+            //Abstract soyut sinif
+            var shapes=new Shape[3];
+            shapes[0]=new Shape();
+            shapes[1]=new Square();//shape den turedildi
+            shapes[2]=new Rectangle();//shape den turedildi
+
+            foreach (var shape in shapes)
+            {
+                shape.Draw();
+            }
         }
     }
 }
