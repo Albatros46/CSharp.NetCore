@@ -58,8 +58,22 @@ namespace Ders_36_CollectionsGeneric
                 });//
             int count=urunler1.Count;
             Console.WriteLine($"Ürünlerin Sayısı :{count}");
-            
+
             //---------For ile listeleme şekli
+            for (int i = 0; i < urunler1.Count; i++)
+            {
+                Console.WriteLine($"Ürünler :{urunler1[i].Name}");
+            }
+
+            //insert items kullanimi bellli bir indexten sonra ekleme yapma
+            plakalar.Insert(plakalar.Count,81);//son index ten sonra
+            foreach (var x in plakalar)
+            {
+                Console.WriteLine(x);
+            }
+            plakalar.Remove(46);//46 degerini silecektir
+            //insertrange kullanimi
+            urunler1.InsertRange(2,urunler2);//2.indexten itibaren  urunler 2 eklensin
             for (int i = 0; i < urunler1.Count; i++)
             {
                 Console.WriteLine($"Ürünler :{urunler1[i].Name}");
