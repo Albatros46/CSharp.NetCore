@@ -3,6 +3,7 @@ using System;
 using Ders_34_NesneRepositoryPattern.Entity;
 using Ders_34_NesneRepositoryPattern.DataAcces.Abstract;
 using Ders_34_NesneRepositoryPattern.DataAcces.Concrete;
+
 namespace Ders_34_NesneRepositoryPattern
 {// Yeni Proje ve dosya olusturmak icin -> dotnet new console -o  Ders_
     
@@ -11,7 +12,8 @@ namespace Ders_34_NesneRepositoryPattern
         static void Main(string[] args)
         {
             var productDal=new EfProductDal();
-            productDal.Create();
+            productDal.Create(new Product());
+
         }
     }
 }
