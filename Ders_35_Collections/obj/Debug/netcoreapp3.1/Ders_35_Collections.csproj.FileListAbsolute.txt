@@ -1,0 +1,13 @@
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_35_Collections\bin\Debug\netcoreapp3.1\Ders_35_Collections.exe
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_35_Collections\bin\Debug\netcoreapp3.1\Ders_35_Collections.deps.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_35_Collections\bin\Debug\netcoreapp3.1\Ders_35_Collections.runtimeconfig.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_35_Collections\bin\Debug\netcoreapp3.1\Ders_35_Collections.runtimeconfig.dev.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_35_Collections\bin\Debug\netcoreapp3.1\Ders_35_Collections.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_35_Collections\bin\Debug\netcoreapp3.1\Ders_35_Collections.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_35_Collections\obj\Debug\netcoreapp3.1\Ders_35_Collections.csprojAssemblyReference.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_35_Collections\obj\Debug\netcoreapp3.1\Ders_35_Collections.AssemblyInfoInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_35_Collections\obj\Debug\netcoreapp3.1\Ders_35_Collections.AssemblyInfo.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_35_Collections\obj\Debug\netcoreapp3.1\Ders_35_Collections.csproj.CoreCompileInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_35_Collections\obj\Debug\netcoreapp3.1\Ders_35_Collections.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_35_Collections\obj\Debug\netcoreapp3.1\Ders_35_Collections.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_35_Collections\obj\Debug\netcoreapp3.1\Ders_35_Collections.genruntimeconfig.cache

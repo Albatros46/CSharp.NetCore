@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Ders_35_Collections/1.0.0": {
+        "runtime": {
+          "Ders_35_Collections.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ders_35_Collections/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
