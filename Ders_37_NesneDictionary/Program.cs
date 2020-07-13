@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Net.Security;
+using System.Linq;
 using System.Collections.Generic;
 using System;
 
@@ -19,6 +20,8 @@ namespace Ders_37_NesneDictionary
             {
                 Console.WriteLine($"Plakalar :{plaka.Key} plakalı şehir {plaka.Value}");
             }
+            plakalar.Remove(6);//index 6 plan nesne silinir
+
             //KeyValuePair kullanimi
             foreach (KeyValuePair<int,string> plaka in plakalar)
             {
@@ -46,6 +49,17 @@ namespace Ders_37_NesneDictionary
                 Console.WriteLine($"Kategori Id :{k.Key} Kategori Adı:{k.Value}");
             }
             Console.WriteLine(kategori.ContainsKey(3));//degerin varliğini kontrol etme true/false
+            //Generic olmayan kullanım için de
+            //genereic dictionary hastable ye gore daha hizlidir
+            //generic yapida boxing ve unboxing yapilmamaktadir.
+            Hashtable ht= new Hashtable(){
+                ht.Add(1,"Servet"),
+                ht.Add(2,"Ahmet"),
+                ht.Add(3,"Akif"),
+                ht.Add(4,"Oğuz"),
+                ht.Add(5,"Rukiye")
+            };
+           
         }
     }
 }
