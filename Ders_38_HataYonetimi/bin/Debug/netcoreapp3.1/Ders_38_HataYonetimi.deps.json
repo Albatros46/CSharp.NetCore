@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Ders_38_HataYonetimi/1.0.0": {
+        "runtime": {
+          "Ders_38_HataYonetimi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ders_38_HataYonetimi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

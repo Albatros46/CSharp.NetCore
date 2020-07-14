@@ -1,0 +1,13 @@
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_38_HataYonetimi\bin\Debug\netcoreapp3.1\Ders_38_HataYonetimi.exe
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_38_HataYonetimi\bin\Debug\netcoreapp3.1\Ders_38_HataYonetimi.deps.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_38_HataYonetimi\bin\Debug\netcoreapp3.1\Ders_38_HataYonetimi.runtimeconfig.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_38_HataYonetimi\bin\Debug\netcoreapp3.1\Ders_38_HataYonetimi.runtimeconfig.dev.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_38_HataYonetimi\bin\Debug\netcoreapp3.1\Ders_38_HataYonetimi.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_38_HataYonetimi\bin\Debug\netcoreapp3.1\Ders_38_HataYonetimi.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_38_HataYonetimi\obj\Debug\netcoreapp3.1\Ders_38_HataYonetimi.csprojAssemblyReference.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_38_HataYonetimi\obj\Debug\netcoreapp3.1\Ders_38_HataYonetimi.AssemblyInfoInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_38_HataYonetimi\obj\Debug\netcoreapp3.1\Ders_38_HataYonetimi.AssemblyInfo.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_38_HataYonetimi\obj\Debug\netcoreapp3.1\Ders_38_HataYonetimi.csproj.CoreCompileInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_38_HataYonetimi\obj\Debug\netcoreapp3.1\Ders_38_HataYonetimi.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_38_HataYonetimi\obj\Debug\netcoreapp3.1\Ders_38_HataYonetimi.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_38_HataYonetimi\obj\Debug\netcoreapp3.1\Ders_38_HataYonetimi.genruntimeconfig.cache
