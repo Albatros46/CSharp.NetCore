@@ -9,6 +9,11 @@ namespace Ders_40_HataFirlatmaUygulama
     2-Kullanıcı q degerini girmedikçe sayısal degeri bulana kadar hata mesajı verecek.
     3-Girilen parola içinde türkçe karakter araması yapacak
 */
+//Katmanlı mimarilerden bu siniflari Entity katmanına yazariz.
+    class User{
+        public string UserName { get; set; }
+        public string Email { get; set; }
+    }
     class Program
     {
         static void Main(string[] args)
