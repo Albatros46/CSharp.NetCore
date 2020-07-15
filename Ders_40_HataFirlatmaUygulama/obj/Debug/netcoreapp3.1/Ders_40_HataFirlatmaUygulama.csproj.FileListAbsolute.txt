@@ -1,0 +1,13 @@
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_40_HataFirlatmaUygulama\obj\Debug\netcoreapp3.1\Ders_40_HataFirlatmaUygulama.csprojAssemblyReference.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_40_HataFirlatmaUygulama\obj\Debug\netcoreapp3.1\Ders_40_HataFirlatmaUygulama.AssemblyInfoInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_40_HataFirlatmaUygulama\obj\Debug\netcoreapp3.1\Ders_40_HataFirlatmaUygulama.AssemblyInfo.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_40_HataFirlatmaUygulama\obj\Debug\netcoreapp3.1\Ders_40_HataFirlatmaUygulama.csproj.CoreCompileInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_40_HataFirlatmaUygulama\bin\Debug\netcoreapp3.1\Ders_40_HataFirlatmaUygulama.exe
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_40_HataFirlatmaUygulama\bin\Debug\netcoreapp3.1\Ders_40_HataFirlatmaUygulama.deps.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_40_HataFirlatmaUygulama\bin\Debug\netcoreapp3.1\Ders_40_HataFirlatmaUygulama.runtimeconfig.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_40_HataFirlatmaUygulama\bin\Debug\netcoreapp3.1\Ders_40_HataFirlatmaUygulama.runtimeconfig.dev.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_40_HataFirlatmaUygulama\bin\Debug\netcoreapp3.1\Ders_40_HataFirlatmaUygulama.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_40_HataFirlatmaUygulama\bin\Debug\netcoreapp3.1\Ders_40_HataFirlatmaUygulama.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_40_HataFirlatmaUygulama\obj\Debug\netcoreapp3.1\Ders_40_HataFirlatmaUygulama.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_40_HataFirlatmaUygulama\obj\Debug\netcoreapp3.1\Ders_40_HataFirlatmaUygulama.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_40_HataFirlatmaUygulama\obj\Debug\netcoreapp3.1\Ders_40_HataFirlatmaUygulama.genruntimeconfig.cache
