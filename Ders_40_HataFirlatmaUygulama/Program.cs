@@ -49,7 +49,27 @@ namespace Ders_40_HataFirlatmaUygulama
                     }
                     
             }
-            
+            //3-Girilen parola içinden türkçe karakter sorgulaması
+            Console.Write("Parola :");
+            string parola=Console.ReadLine();
+            try
+            {
+                CheckPassword(parola);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+        static void CheckPassword(string parola){
+            string turkce_karakter="ş,Ş,ı,İ,ğ,Ğ,ü,Ü,ç,Ç,ö,Ö";
+            foreach (var karakter in parola)
+            {
+                if(turkce_karakter.IndexOf(karakter)>-1){
+                    throw new Exception("Parola Tükçe Karakter İçeremez");
+                }
+            }
+            Console.WriteLine("Geçerli Parola...");
         }
     }
 }
