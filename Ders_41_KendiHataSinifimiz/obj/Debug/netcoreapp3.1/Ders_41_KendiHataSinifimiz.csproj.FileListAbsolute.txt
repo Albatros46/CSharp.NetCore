@@ -1,0 +1,13 @@
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_41_KendiHataSinifimiz\bin\Debug\netcoreapp3.1\Ders_41_KendiHataSinifimiz.exe
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_41_KendiHataSinifimiz\bin\Debug\netcoreapp3.1\Ders_41_KendiHataSinifimiz.deps.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_41_KendiHataSinifimiz\bin\Debug\netcoreapp3.1\Ders_41_KendiHataSinifimiz.runtimeconfig.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_41_KendiHataSinifimiz\bin\Debug\netcoreapp3.1\Ders_41_KendiHataSinifimiz.runtimeconfig.dev.json
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_41_KendiHataSinifimiz\bin\Debug\netcoreapp3.1\Ders_41_KendiHataSinifimiz.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_41_KendiHataSinifimiz\bin\Debug\netcoreapp3.1\Ders_41_KendiHataSinifimiz.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_41_KendiHataSinifimiz\obj\Debug\netcoreapp3.1\Ders_41_KendiHataSinifimiz.csprojAssemblyReference.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_41_KendiHataSinifimiz\obj\Debug\netcoreapp3.1\Ders_41_KendiHataSinifimiz.AssemblyInfoInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_41_KendiHataSinifimiz\obj\Debug\netcoreapp3.1\Ders_41_KendiHataSinifimiz.AssemblyInfo.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_41_KendiHataSinifimiz\obj\Debug\netcoreapp3.1\Ders_41_KendiHataSinifimiz.csproj.CoreCompileInputs.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_41_KendiHataSinifimiz\obj\Debug\netcoreapp3.1\Ders_41_KendiHataSinifimiz.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_41_KendiHataSinifimiz\obj\Debug\netcoreapp3.1\Ders_41_KendiHataSinifimiz.pdb
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_41_KendiHataSinifimiz\obj\Debug\netcoreapp3.1\Ders_41_KendiHataSinifimiz.genruntimeconfig.cache
