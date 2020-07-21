@@ -13,12 +13,20 @@ namespace Ders_43_VeritanindaUrunListele
         }
         static void GetAllProducts()
         {
-            using (var connection=MySqlConnection())
+            using (var connection=GetMySqlConnection())
             {
                 try
                 {
-                connection.Open();
-                Console.WriteLine("MySQL Server Bağlantı Sağlandı...");
+                    connection.Open();
+                    Console.WriteLine("MySQL Server Bağlantı Sağlandı...");
+                    string sql="SELECT * FROM northwind.products;";
+                    MySqlCommand command= new MySqlCommand(sql,connection);
+                    MySqlDataReader reader=command.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        Console.WriteLine($"Ürün Adı:{reader[3]} Ürün Fiyatı:{reader[6]}");
+                    }
+                    reader.Close();
                 }
                  catch (Exception e)
                  {
@@ -35,7 +43,7 @@ namespace Ders_43_VeritanindaUrunListele
             //MySql Server e bağlantı işlemi
             //consol ekranına dotnet add package MySql.Data yazıp driveri projemize ekliyoruz.
             string connectionString=@"server=127.0.0.1;port=3306;database=northwind;user=root;password=12345;";
-            return connection=new MySqlConnection(connectionString);
+            return new MySqlConnection(connectionString);
         }
         static void GetSqlConnection(){
             //MsSQL Server e bağlanacağiz
