@@ -18,7 +18,7 @@ namespace Ders_42_MsSQL_Baglanti
         static void GetMySqlConnection(){
             //MySql Server e bağlantı işlemi
             string connectionString=@"server=127.0.0.1;port=3306;database=northwind;user=root;password=12345;";
-            //consol ekranına dotnet add package MySql.Data yazıp driveri projemize ekliyoruz.
+            //consol ekranına dotnet add package MySql.Data yazıp driveri projemize ekliyoruz. northwind
             using (var connection=new MySqlConnection(connectionString))
             {
                 try
@@ -38,7 +38,7 @@ namespace Ders_42_MsSQL_Baglanti
          
         } 
         static void GetSqlConnection(){
-            //MsSQL Server e bağlanacağiz
+            //MsSQL Server e bağlanacağiz  Northwind
             // @ ekleyerek \ in string ifade içinde olduğunu belirtiyoruz.
             string connectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=Northwind;Integrated Security=SSPI;"; 
                                     //Data Source=SERVER ADI ;Initial Catalog=VERİTABANI ADI;Integrated Security=SSPI;";
