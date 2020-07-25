@@ -2,18 +2,43 @@
 using System.Data;
 using System.Data.SqlClient;
 using MySql.Data.MySqlClient;
+using System.Collections.Generic;
 
 namespace Ders_43_VeritanindaUrunListele
 {// Yeni Proje ve dosya olusturmak icin -> dotnet new console -o  Ders_
-    class Program
+    interface IProductDal
     {
-        static void Main(string[] args)
-        {
-            GetAllProducts();
+        List<Product> GelAllProducts();
+        Product GetProductById(int id);
+        void Create(Product p);
+        void Update(Product p);
+        void Delete(int productId);
+    }
+    public class MySQLProductDal:IProductDal
+    {
+        private MySqlConnection GetMySqlConnection(){
+
+            //MySql Server e bağlantı işlemi
+            //consol ekranına dotnet add package MySql.Data yazıp driveri projemize ekliyoruz.
+            string connectionString=@"server=127.0.0.1;port=3306;database=northwind;user=root;password=12345;";
+            return new MySqlConnection(connectionString);
         }
-        static void GetAllProducts()
-        {
-            using (var connection=GetMySqlConnection())
+        public void Create(Product p){
+
+        }
+        public void Update(Product p){
+
+        }
+        public void Delete(int productId){
+
+        }
+        public  Product GetProductById(int id){
+
+        }
+        public List<Product> GelAllProducts(){
+             List<Product> products=null;
+             using (var connection=GetMySqlConnection())
+             return products;
             {
                 try
                 {
@@ -22,9 +47,16 @@ namespace Ders_43_VeritanindaUrunListele
                     string sql="SELECT * FROM northwind.products;";
                     MySqlCommand command= new MySqlCommand(sql,connection);
                     MySqlDataReader reader=command.ExecuteReader();
+                    products=new List<Product>();
+
                     while (reader.Read())
                     {
-                        Console.WriteLine($"Ürün Adı:{reader[3]} Ürün Fiyatı:{reader[6]}");
+                        products.Add(new Product{ProductId=int.Parse(reader["id"].ToString()),
+                        Name=reader["product_name"].ToString(), Price=double.Parse(reader["list_price"]?.ToString())
+                        //Verilerin db den obje isimleri ile çekilme işlemi. 
+                            }
+                        );
+                       // Console.WriteLine($"Ürün Adı:{reader[3]} Ürün Fiyatı:{reader[6]}");
                     }
                     reader.Close();
                 }
@@ -38,13 +70,22 @@ namespace Ders_43_VeritanindaUrunListele
                 }
             }
         }
-         static MySqlConnection GetMySqlConnection()
+    }
+    class Program
+    {
+        static void Main(string[] args)
         {
-            //MySql Server e bağlantı işlemi
-            //consol ekranına dotnet add package MySql.Data yazıp driveri projemize ekliyoruz.
-            string connectionString=@"server=127.0.0.1;port=3306;database=northwind;user=root;password=12345;";
-            return new MySqlConnection(connectionString);
+            var products = GetAllProducts();
+            foreach (var pr in products)
+            {
+                Console.WriteLine($"Id :{pr.ProductId} Name :{pr.Name} Price :{pr.Price}");
+            }
         }
+        static List<Product> GetAllProducts()
+        {
+           
+        }
+       
         static void GetSqlConnection(){
             //MsSQL Server e bağlanacağiz
             // @ ekleyerek \ in string ifade içinde olduğunu belirtiyoruz.
