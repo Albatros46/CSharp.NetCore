@@ -52,3 +52,6 @@ E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_44_EntityFramework_1\obj\Debug\net
 E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_44_EntityFramework_1\obj\Debug\netcoreapp3.1\Ders_44_EntityFramework_1.dll
 E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_44_EntityFramework_1\obj\Debug\netcoreapp3.1\Ders_44_EntityFramework_1.pdb
 E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_44_EntityFramework_1\obj\Debug\netcoreapp3.1\Ders_44_EntityFramework_1.genruntimeconfig.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_44_EntityFramework_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_44_EntityFramework_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\Ders_44_EntityFramework_1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll

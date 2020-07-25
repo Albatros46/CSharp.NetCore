@@ -1,6 +1,9 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using Microsoft.Extensions.Logging;
+using System.Linq;
 
 namespace Ders_44_EntityFramework_1
 {// Yeni Proje ve dosya olusturmak icin -> dotnet new console -o  Ders_
@@ -11,11 +14,16 @@ namespace Ders_44_EntityFramework_1
         //https://docs.microsoft.com/tr-tr/ef/core/ 
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
-
+        public static readonly ILoggerFactory MyLoggerFactory = LoggerFactory.Create(builder => { builder.AddConsole(); });
+         //LinQ ile olusturulan SQL sorgusunu LOG tutularak gormek için.
+         
+         
           //ShopContext calistiğinda hangi veritabanın çalışacağınız belirtmek için;
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=shop.db");
+            optionsBuilder 
+                           .UseLoggerFactory(MyLoggerFactory)
+                           .UseSqlite("Data Source=shop.db");
             //Hangi database provideri/driver kullanmak istiyorsak ve olumasini istediğimiz db ismini belirttik.
         }
 
@@ -45,8 +53,58 @@ namespace Ders_44_EntityFramework_1
                 Veritabanı ve migration olustmak için ornek;
                 https://docs.microsoft.com/en-us/ef/core/get-started/?tabs=netcore-cli
             */
-
-            Console.WriteLine("Hello World!"); 
+           // AddProduct();
+            Console.WriteLine("-------------------");
+           // AddProducts();
+            Console.WriteLine("-------------------");
+            GetAllProducts();
+            
+        }
+        static void AddProducts(){
+            using(var db=new ShopContext())
+            {
+               //Liste halinde ekleme yapma
+                var products=new List<Product>{
+                    new Product { Name = "iPhone 7 128 gb", Price = 3750 },
+                    new Product { Name = "Samsung S8 ", Price = 3110 },
+                    new Product { Name = "Huawei P 9 Lite", Price = 2989 },
+                    new Product { Name = "Samsung Galaxy S 10", Price = 4000 },
+                    new Product { Name = "iPhone X Max", Price = 8000 },
+                };
+                foreach (var pr in products)
+                {
+                    db.Products.Add(pr);
+                }
+                //Foreach yerine:
+                // db.Products.AddRange(products);
+                db.SaveChanges();
+                Console.WriteLine("Veriler Eklendi.");
+            };
+        }
+         static void AddProduct(){
+            using(var db=new ShopContext())
+            {
+                //bir tane ekleme yapma
+                var p = new Product { Name = "iPhone 7 128 gb", Price = 3750 };
+                db.Products.Add(p);
+                db.SaveChanges();//Yapılan Değişiklikleri db ye kaydet          
+                // db.Products.AddRange(products);
+                
+                Console.WriteLine("Veriler Eklendi.");
+            };
+        }
+        static void GetAllProducts(){
+            using (var context=new ShopContext())
+            {
+                var products =context
+                .Products
+                .Select(p=>new{p.Name, p.Price }) //Şeklinde istediğimiz kolonları listeleyebiliriz.
+                .ToList();
+                foreach (var p in products)
+                {
+                    Console.WriteLine($"Adı :{p.Name} Fiyat :{p.Price}");
+                }
+            }
         }
     }
 }
