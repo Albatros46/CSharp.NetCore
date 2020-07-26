@@ -58,7 +58,10 @@ namespace Ders_44_EntityFramework_1
            // AddProducts();
             Console.WriteLine("-------------------");
             GetAllProducts();
-            
+            Console.WriteLine("---id ile sorgulama----");
+            GetProductById(5);
+            Console.WriteLine("---Name ile sorgu----");
+            GetProductByName("iPhone");
         }
         static void AddProducts(){
             using(var db=new ShopContext())
@@ -81,7 +84,7 @@ namespace Ders_44_EntityFramework_1
                 Console.WriteLine("Veriler Eklendi.");
             };
         }
-         static void AddProduct(){
+        static void AddProduct(){
             using(var db=new ShopContext())
             {
                 //bir tane ekleme yapma
@@ -106,5 +109,35 @@ namespace Ders_44_EntityFramework_1
                 }
             }
         }
+         static void GetProductById(int id)
+        {
+            using (var context = new ShopContext())
+            {
+                var result = context
+                                    .Products
+                                    .Where(p => p.Id == id)
+                                    .FirstOrDefault();//Eger istenilen id de kayit yoksa null deger donecektir.
+                
+                Console.WriteLine($"Adı :{result.Name} Fiyat :{result.Price}");
+                
+            }
+        }
+        static void GetProductByName(string name)
+        {
+            using (var context = new ShopContext())
+            {
+                var products = context
+                                    .Products
+                                    .Where(p => p.Name.ToLower().Contains(name))//.Select ile de kullanılabilir.
+                                    .Select(p=>
+                                            new { p.Name,p.Price})
+                                    .ToList();//Eger istenilen id de kayit yoksa null deger donecektir.
+                foreach (var pr in products)
+                {
+                    Console.WriteLine($"Adı :{pr.Name} Fiyat :{pr.Price}");
+                }
+            }
+        }
     }
 }
+
