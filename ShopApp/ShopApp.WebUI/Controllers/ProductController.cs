@@ -16,9 +16,9 @@ namespace ShopApp.WebUI.Controllers
         {// https://localhost:44328/product/list
             return "Product/List";
         }
-        public string Details()
+        public string Details(int id)
         {// https://localhost:44328/product/Details
-            return "Product/Detailst";
+            return "Product/Detailst/"+id;
         }
     }
 }
