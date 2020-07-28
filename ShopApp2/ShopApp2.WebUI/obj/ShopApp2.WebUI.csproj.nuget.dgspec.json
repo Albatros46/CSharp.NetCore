@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\ShopApp2.WebUI.csproj": {}
+    "E:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\ShopApp2.WebUI.csproj": {}
   },
   "projects": {
-    "e:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\ShopApp2.WebUI.csproj": {
+    "E:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\ShopApp2.WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\ShopApp2.WebUI.csproj",
+        "projectUniqueName": "E:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\ShopApp2.WebUI.csproj",
         "projectName": "ShopApp2.WebUI",
-        "projectPath": "e:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\ShopApp2.WebUI.csproj",
+        "projectPath": "E:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\ShopApp2.WebUI.csproj",
         "packagesPath": "C:\\Users\\KCDG\\.nuget\\packages\\",
-        "outputPath": "e:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\obj\\",
+        "outputPath": "E:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup><!--Cs kodları kontrol işlemleri-->
+    <Folder Include="Models\" /><!--Veritabanı işlemleri-->
+    <Folder Include="Views\" /><!--HTML kodları-->
+  </ItemGroup>
+
 </Project>
