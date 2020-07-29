@@ -7,5 +7,23 @@
 </head>
 <body>
     <h2>Product/Index</h2>
+    <h3>@ViewData["Category"]</h3>
+    <!--_ViewImports a model in tam tolunu girdikten sonra asagidaki gibi model içindeki verileri çekebiliriz-->
+    <p>ViewImports a model in tam tolunu girdikten sonra asagidaki gibi model içindeki verileri çekebiliriz</p>
+    <p>ViewData ile veri aktarımı</p>
+    <h3>@(((Product)ViewData["Product"]).Name)</h3>
+    <h3>@(((Product)ViewData["Product"]).Price)</h3>
+    <h3>@(((Product)ViewData["Product"]).Description)</h3>
+
+    <p>ViewBag ile veri aktarımı</p>
+    <h3>@(((Product)ViewBag.Product).Name)</h3>
+    <h3>@(((Product)ViewBag.Product).Price)</h3>
+    <h3>@(((Product)ViewBag.Product).Description)</h3>
+
+    <p>ViewBag diğer kullanımı</p>
+    <h3>@ViewBag.Product.Name</h3>
+    <h3>@ViewBag.Product.Price</h3>
+    <h3>@ViewBag.Product.Description</h3>
+
 </body>
 </html>

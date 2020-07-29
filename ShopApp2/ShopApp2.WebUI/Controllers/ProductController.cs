@@ -10,6 +10,15 @@ namespace ShopApp2.WebUI.Controllers
     {
           public IActionResult Index()
         {// http://localhost:5000/home/index
+            //ViewBag 
+            //Model
+            //ViewData 
+            var product=new Product{Name="Samsung S 8",Price=3000,Description="Güzel Telefon"};
+            ViewData["Category"]="Category";
+            ViewData["Product"]=product;
+
+            ViewBag.Category = "Telefonlar";
+            ViewBag.Product = product;
             return View();
         }
          public IActionResult List()

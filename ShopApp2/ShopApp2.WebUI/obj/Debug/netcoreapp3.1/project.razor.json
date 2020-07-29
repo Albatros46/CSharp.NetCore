@@ -20531,6 +20531,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\Views\\Home\\About.cshtml",
       "TargetPath": "Views\\Home\\About.cshtml",
       "FileKind": "mvc"

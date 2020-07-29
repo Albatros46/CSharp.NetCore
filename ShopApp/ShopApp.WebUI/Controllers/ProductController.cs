@@ -11,6 +11,16 @@ namespace ShopApp.WebUI.Controllers
     {
         public IActionResult Index()
         {//https://localhost:44328/home/index
+         //ViewBag 
+         //Model
+         //ViewData 
+            var product = new Product { Name = "Samsung S 8", Price = 3000, Description = "Güzel Telefon" };
+            ViewData["Category"] = "Category";
+            ViewData["Product"] = product;
+
+            ViewBag.Category = "Telefonlar";
+            ViewBag.Product = product;
+
             return View();
         }
         public IActionResult List()
