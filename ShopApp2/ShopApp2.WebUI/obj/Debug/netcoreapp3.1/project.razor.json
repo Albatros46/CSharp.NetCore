@@ -20529,6 +20529,21 @@
       "FilePath": "e:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\Views\\Home\\About.cshtml",
       "TargetPath": "Views\\Home\\About.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\Views\\Product\\Index.cshtml",
+      "TargetPath": "Views\\Product\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\Views\\Product\\Details.cshtml",
+      "TargetPath": "Views\\Product\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\Views\\Product\\List.cshtml",
+      "TargetPath": "Views\\Product\\List.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

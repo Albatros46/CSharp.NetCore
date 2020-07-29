@@ -103,3 +103,6 @@ E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp\ShopApp.WebUI\obj\Debug\netcore
 E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.Views.pdb
 E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\ShopApp.WebUI.csproj.CopyComplete
 E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Product\Details.cshtml.g.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Product\List.cshtml.g.cs
