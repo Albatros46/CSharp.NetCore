@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ShopApp2.WebUI.Models;
+using ShopApp2.WebUI.ViewModels;
+
 namespace ShopApp2.WebUI.Controllers
 {
     public class ProductController : Controller
@@ -23,7 +25,21 @@ namespace ShopApp2.WebUI.Controllers
         }
          public IActionResult List()
         {// http://localhost:5000/Product/List
-            return View();
+        //Burada tanımladığımız list i view de belirtilen List.cshtml de model tanımlarken List olarak tanımlayacağız.
+             var products = new List<Product>() { 
+                new Product{Name="iPhone X Max",Price=12000,Description="Çok İyi Telefon"},
+                new Product{Name="Samsung Galaxy S 10",Price=6000,Description="İyi Telefon"},
+                new Product{Name="iPhone 8 Plus",Price=9000,Description="İyi Telefon"},
+                new Product{Name="Huawei Me 10 Pro",Price=5000,Description="Güzel Telefon"},
+                new Product{Name="Xiaomi Red Me 10",Price=4500,Description="İyi Telefon"}
+            };
+            var category = new Category { Name="Telefonlar",Description="Telefon Listesi"};
+               // ViewBag.Category = category; //List.cshtml de ulaşabiliriz.
+            var productviewModel = new ProductViewModel() { 
+                Category=category,
+                Products=products
+            };
+            return View(productviewModel);
         }
          public IActionResult Details(int id)
         {// http://localhost:5000/Product/Details

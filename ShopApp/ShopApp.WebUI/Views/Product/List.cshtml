@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿<!--model List<Product>-->
+<!--ProductController de list metodu List olarak tanımlandığı için modelde de List olduğunu belirteceğiz.-->
+
+@model ShopApp.WebUI.ViewModels.ProductViewModel
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,5 +12,46 @@
 </head>
 <body>
     <h2>Product/List</h2>
+    <h1>@Model.Category.Name</h1>
+    <div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>Ürün Adı</td>
+                    <td>Fiyatı</td>
+                    <td>Hakkında</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Model.Products[0].Name</td>
+                    <td>@Model.Products[0].Price</td>
+                    <td>@Model.Products[0].Description</td>
+                </tr>
+                <tr>
+                    <td>@Model.Products[1].Name</td>
+                    <td>@Model.Products[1].Price</td>
+                    <td>@Model.Products[1].Description</td>
+                </tr>
+                <tr>
+                    <td>@Model.Products[2].Name</td>
+                    <td>@Model.Products[2].Price</td>
+                    <td>@Model.Products[2].Description</td>
+                </tr>
+                <tr>
+                    <td>@Model.Products[3].Name</td>
+                    <td>@Model.Products[3].Price</td>
+                    <td>@Model.Products[3].Description</td>
+                </tr>
+                <tr>
+                    <td>@Model.Products[4].Name</td>
+                    <td>@Model.Products[4].Price</td>
+                    <td>@Model.Products[4].Description</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p>ProductViewModel.cs de kategory ile product u birleştirdikten sonra model üzerinden
+    ProductViewModel ile verileri çekiyoruz.</p>
 </body>
 </html>
