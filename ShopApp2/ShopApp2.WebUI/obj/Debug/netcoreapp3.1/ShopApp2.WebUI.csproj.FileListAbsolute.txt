@@ -18,3 +18,12 @@ E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp2\ShopApp2.WebUI\obj\Debug\netco
 E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp2\ShopApp2.WebUI\obj\Debug\netcoreapp3.1\ShopApp2.WebUI.dll
 E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp2\ShopApp2.WebUI\obj\Debug\netcoreapp3.1\ShopApp2.WebUI.pdb
 E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp2\ShopApp2.WebUI\obj\Debug\netcoreapp3.1\ShopApp2.WebUI.genruntimeconfig.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp2\ShopApp2.WebUI\obj\Debug\netcoreapp3.1\ShopApp2.WebUI.RazorAssemblyInfo.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp2\ShopApp2.WebUI\obj\Debug\netcoreapp3.1\ShopApp2.WebUI.RazorAssemblyInfo.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp2\ShopApp2.WebUI\obj\Debug\netcoreapp3.1\ShopApp2.WebUI.TagHelpers.input.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp2\ShopApp2.WebUI\obj\Debug\netcoreapp3.1\ShopApp2.WebUI.TagHelpers.output.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp2\ShopApp2.WebUI\obj\Debug\netcoreapp3.1\ShopApp2.WebUI.RazorCoreGenerate.cache
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp2\ShopApp2.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp2\ShopApp2.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp2\ShopApp2.WebUI\obj\Debug\netcoreapp3.1\ShopApp2.WebUI.RazorTargetAssemblyInfo.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp2\ShopApp2.WebUI\obj\Debug\netcoreapp3.1\ShopApp2.WebUI.Views.pdb

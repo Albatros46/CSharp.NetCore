@@ -20519,6 +20519,17 @@
     "CSharpLanguageVersion": 800
   },
   "RootNamespace": "ShopApp2.WebUI",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "e:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\Views\\Home\\About.cshtml",
+      "TargetPath": "Views\\Home\\About.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

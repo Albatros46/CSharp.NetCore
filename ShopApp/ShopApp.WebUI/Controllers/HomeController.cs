@@ -9,13 +9,13 @@ namespace ShopApp.WebUI.Controllers
     // https://localhost:44328/
     public class HomeController : Controller
     {
-        public string Index()
+        public IActionResult Index()
         {//https://localhost:44328/home/index
-            return "Home/Index";
+            return View();//view donecek ise IActionResult dan türetilen respons olmalı
         }
-        public string About()
+        public IActionResult About()
         {// https://localhost:44328/home/about
-            return "Home/About";
+            return View();
         }
     }
 }
