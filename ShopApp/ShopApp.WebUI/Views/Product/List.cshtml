@@ -2,17 +2,32 @@
 <!--ProductController de list metodu List olarak tanımlandığı için modelde de List olduğunu belirteceğiz.-->
 
 @model ShopApp.WebUI.ViewModels.ProductViewModel
-
+@{
+    var popularClass = Model.Products.Count > 4 ? "popular" : "popularDegil";
+    //model üzerinden çağirmak yerine ;
+    var product = Model.Products;
+    var category = Model.Category;
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ürün Listesi</title>
+    <style>
+        .popular {
+            color: green;
+            font-weight: 700;
+        }
+
+        .popularDegil {
+            color: yellow;
+        }
+    </style>
 </head>
 <body>
     <h2>Product/List</h2>
-    <h1>@Model.Category.Name</h1>
+    <h1 class="@popularClass">@category.Name</h1>
     <div>
         <table border="1">
             <thead>
@@ -24,19 +39,19 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>@Model.Products[0].Name</td>
-                    <td>@Model.Products[0].Price</td>
-                    <td>@Model.Products[0].Description</td>
+                    <td>@product[0].Name</td>
+                    <td>@product[0].Price</td>
+                    <td>@product[0].Description</td>
                 </tr>
                 <tr>
-                    <td>@Model.Products[1].Name</td>
-                    <td>@Model.Products[1].Price</td>
-                    <td>@Model.Products[1].Description</td>
+                    <td>@product[1].Name</td>
+                    <td>@product[1].Price</td>
+                    <td>@product[1].Description</td>
                 </tr>
                 <tr>
-                    <td>@Model.Products[2].Name</td>
-                    <td>@Model.Products[2].Price</td>
-                    <td>@Model.Products[2].Description</td>
+                    <td>@product[2].Name</td>
+                    <td>@product[2].Price</td>
+                    <td>@product[2].Description</td>
                 </tr>
                 <tr>
                     <td>@Model.Products[3].Name</td>
@@ -51,7 +66,47 @@
             </tbody>
         </table>
     </div>
-    <p>ProductViewModel.cs de kategory ile product u birleştirdikten sonra model üzerinden
-    ProductViewModel ile verileri çekiyoruz.</p>
+    <p>
+        ProductViewModel.cs de kategory ile product u birleştirdikten sonra model üzerinden
+        ProductViewModel ile verileri çekiyoruz.
+    </p><br><hr>
+    <p>Razor: C# daki dongu ve değişken tanımlamalarnı html içersinde yapacağız.</p>
+    @if (Model.Products.Count == 0)
+    {
+        <p>Listelenecek Ürün Yok!</p>
+    }
+    else
+    {
+        <table border="1">
+            @foreach (var p in product)
+            {
+                @if (p.isApproved)
+                {
+                    <tr>
+                        <td>@p.Name</td>
+                        <td>@p.Price</td>
+                        <td>@p.Description</td>
+                    </tr>
+                }
+                else
+                {
+                    <p style="background-color: red;">Ürün Satışta Değil</p>
+                }
+            }
+        </table>
+        <hr />
+        <ul>
+            @foreach (var pro in product)
+            {
+                <li>
+                    <div>
+                        <p>@pro.Name</p>
+                        <p>@pro.Price</p>
+                        <p>@pro.Description</p>
+                    </div>
+                </li>
+            }
+        </ul>
+    }
 </body>
 </html>
