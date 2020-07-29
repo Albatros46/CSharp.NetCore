@@ -19,7 +19,7 @@ namespace ShopApp2.WebUI.Controllers
 
             ViewBag.Category = "Telefonlar";
             ViewBag.Product = product;
-            return View();
+            return View(product);
         }
          public IActionResult List()
         {// http://localhost:5000/Product/List
