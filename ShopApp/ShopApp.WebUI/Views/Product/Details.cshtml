@@ -1,11 +1,21 @@
-﻿<!DOCTYPE html>
+﻿@model ShopApp.WebUI.Models.Product
+    <!--Kullanacağımız model in tam yolunu yazarak tanımlıyoruz-->
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ürün Detayı</title>
-</head>
-<body>
-    <h2>Product/Details</h2>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ürün Detayı</title>
+    </head>
+    <body>
+        <h2>Product/Details</h2>
+        <p>ViewBag ile tasarımı </p>
+        <p>Ürün Adı :@ViewBag.Name</p>
+        <p>Ürün Fiyatı :@ViewBag.Price</p>
+        <p>Ürün Hakkında :@ViewBag.Description</p>
+        <p>Model ile tasarımı</p>
+        <p>Ürün Adı :@Model.Name</p>
+        <p>Ürün Fiyatı :@Model.Price</p>
+        <p>Ürün Hakkında :@Model.Description</p>
+    </body>
 </html>

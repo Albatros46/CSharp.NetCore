@@ -3,22 +3,33 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-
+using ShopApp2.WebUI.Models;
 namespace ShopApp2.WebUI.Controllers
 {
     public class ProductController : Controller
     {
-          public string Index()
+          public IActionResult Index()
         {// http://localhost:5000/home/index
-            return "Product/Index";
+            return View();
         }
-         public string List()
+         public IActionResult List()
         {// http://localhost:5000/Product/List
-            return "Product/List";
+            return View();
         }
-         public string Details(int id)
+         public IActionResult Details(int id)
         {// http://localhost:5000/Product/Details
-            return "Product/Detailst/"+id;
+            // Name = "iPhone 7"
+            // Price= "4250"
+            // Description="Müthiş Telefon"  gibi bilgiler göstermek istiyoruz
+            ViewBag.Name = "iPhone 7";
+            ViewBag.Price= 4250;
+            ViewBag.Description="Müthiş Telefon";
+            var p=new Product();
+            p.Name="Xaimo Red Me 9";
+            p.Price=4000;
+            p.Description="Harika Telefon";
+
+            return View(p);
         }      
     }
 }
