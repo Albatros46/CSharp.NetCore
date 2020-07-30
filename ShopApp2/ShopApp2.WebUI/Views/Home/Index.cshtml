@@ -1,18 +1,67 @@
+<!--model List<Product>-->
+<!--ProductController de list metodu List olarak tanımlandığı için modelde de List olduğunu belirteceğiz.-->
+
+@model ShopApp2.WebUI.ViewModels.ProductViewModel
+@{
+    var popularClass = Model.Products.Count > 4 ? "popular" : "popularDegil";
+    //model üzerinden çağirmak yerine ;
+    var product = Model.Products;
+    var categories = Model.Categories;
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Ürün Listesi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        .popular{
+            color:green;
+            font-weight: 700;
+        } 
+        .popularDegil{
+            color:yellow;
+        }
+    </style>
 </head>
 <body>
-     @await Html.PartialAsync("_Navbar")
-     <!--partial sayfalar yukarıda ki gibi çağırıldığı gibi -->
+    @await Html.PartialAsync("_Navbar")
+    <!--partial sayfalar yukarıda ki gibi çağırıldığı gibi -->
     <partial name="_Header"> <!--veya -->
     @* @await Html.PartialAsync("_Header")*@
-    <h2>Home/Index</h2>
-    <p>@ViewBag.Greeting @ViewBag.UserName Nasılsınız?</p><!--Controller den dinamik veriyi çekiyoruz-->
-
+    <main>
+        <div class="container">
+            <div class="row">
+                 <div class="col-md-3">
+                    <div class="list-group">
+                        @foreach(var category in categories)
+                        {
+                            <a href="#" class="list-group-item list-group-item-action">@category.Name</a>
+                        }
+                    </div>
+                </div>   
+                <div class="col-md-9">
+                    @*Ürünler Gelecek*@   
+                    @if (Model.Products.Count == 0)
+                    {
+                            <partial name="_NoProduct" /><!--veya-->
+                        @* @await Html.PartialAsync("_NoProduct") şeklinde de kullanılabilir. *@
+                    }
+                    else
+                    {
+                    <div class="row">
+                        @foreach (var p in product)
+                        {
+                            <div class="col-md-3">
+                            @await Html.PartialAsync("_Product",p)
+                            </div>
+                        }
+                    </div>
+                    }
+                </div>
+            </div>
+       </div>
+    </main>
 </body>
 </html>

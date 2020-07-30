@@ -20574,6 +20574,11 @@
       "FilePath": "e:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\Views\\Shared\\_Product.cshtml",
       "TargetPath": "Views\\Shared\\_Product.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Dersler\\Udemy-Sadık Turan\\DotNetCore\\ShopApp2\\ShopApp2.WebUI\\Views\\Shared\\_categories.cshtml",
+      "TargetPath": "Views\\Shared\\_categories.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

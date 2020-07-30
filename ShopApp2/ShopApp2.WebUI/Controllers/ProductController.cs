@@ -33,10 +33,17 @@ namespace ShopApp2.WebUI.Controllers
                 new Product{Name="Huawei Me 10 Pro",Price=5000,Description="Güzel Telefon"},
                 new Product{Name="Xiaomi Red Me 10",Price=4500,Description="İyi Telefon",isApproved=true}
             };
+            var categories = new List<Category>() {
+                new Category { Name="Telefonlar",Description="Telefon Listesi"},
+                new Category { Name="Mobilya",Description="Ev ve İş Mobilyaları"},
+                new Category { Name="Oto Aksesuar",Description="Otomobil Aksesuarları"},
+                new Category { Name="Bahçe ve Dekorasyon",Description="Bahçe dekor malzemeleri"},
+                new Category { Name="Beyaz Eşyalar",Description="Beyaz Eşyalar"}
+            };
             var category = new Category { Name="Telefonlar",Description="Telefon Listesi"};
                // ViewBag.Category = category; //List.cshtml de ulaşabiliriz.
             var productviewModel = new ProductViewModel() { 
-                Category=category,
+                Categories=categories,
                 Products=products
             };
             return View(productviewModel);

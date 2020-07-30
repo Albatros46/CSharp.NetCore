@@ -112,3 +112,4 @@ E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp\ShopApp.WebUI\obj\Debug\netcore
 E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Header.cshtml.g.cs
 E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_NoProduct.cshtml.g.cs
 E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Product.cshtml.g.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp\ShopApp.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_categories.cshtml.g.cs

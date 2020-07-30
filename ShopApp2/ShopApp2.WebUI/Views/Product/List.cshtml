@@ -6,7 +6,7 @@
     var popularClass = Model.Products.Count > 4 ? "popular" : "popularDegil";
     //model üzerinden çağirmak yerine ;
     var product = Model.Products;
-    var category = Model.Category;
+    var categories = Model.Categories;
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -33,27 +33,29 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <h1 class="@popularClass">@category.Name</h1>
-                </div>
-            </div>
-   
-            @if (Model.Products.Count == 0)
-            {
-                    <partial name="_NoProduct" /><!--veya-->
-                   @* @await Html.PartialAsync("_NoProduct") şeklinde de kullanılabilir. *@
-            }
-            else
-            {
-                 <div class="row">
+                 <div class="col-md-3">
+                   @await Html.PartialAsync("_categories",categories)
+                </div>   
+                <div class="col-md-9">
+                    @*Ürünler Gelecek*@   
+                    @if (Model.Products.Count == 0)
+                    {
+                            <partial name="_NoProduct" /><!--veya-->
+                        @* @await Html.PartialAsync("_NoProduct") şeklinde de kullanılabilir. *@
+                    }
+                    else
+                    {
+                    <div class="row">
                         @foreach (var p in product)
                         {
                             <div class="col-md-3">
-                               @await Html.PartialAsync("_Product",p)
+                            @await Html.PartialAsync("_Product",p)
                             </div>
                         }
+                    </div>
+                    }
                 </div>
-            }
+            </div>
        </div>
     </main>
 </body>
