@@ -10,14 +10,18 @@
 </head>
 <body>
     @await Html.PartialAsync("_Navbar")
-    <h2>Product/Details</h2>
-    <p>ViewBag ile tasarımı </p>
-    <p>Ürün Adı :@ViewBag.Name</p>
-    <p>Ürün Fiyatı :@ViewBag.Price</p>
-    <p>Ürün Hakkında :@ViewBag.Description</p>
-    <p>Model ile tasarımı</p>
-    <p>Ürün Adı :@Model.Name</p>
-    <p>Ürün Fiyatı :@Model.Price</p>
-    <p>Ürün Hakkında :@Model.Description</p>
+    <!--partial sayfalar yukarıda ki gibi çağırıldığı gibi -->
+    <partial name="_Header">
+        <!--veya -->
+        @* @await Html.PartialAsync("_Header")*@
+        <h2>Product/Details</h2>
+        <p>ViewBag ile tasarımı </p>
+        <p>Ürün Adı :@ViewBag.Name</p>
+        <p>Ürün Fiyatı :@ViewBag.Price</p>
+        <p>Ürün Hakkında :@ViewBag.Description</p>
+        <p>Model ile tasarımı</p>
+        <p>Ürün Adı :@Model.Name</p>
+        <p>Ürün Fiyatı :@Model.Price</p>
+        <p>Ürün Hakkında :@Model.Description</p>
 </body>
 </html>

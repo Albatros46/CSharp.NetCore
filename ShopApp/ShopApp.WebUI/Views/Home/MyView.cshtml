@@ -8,6 +8,10 @@
 </head>
 <body>
     @await Html.PartialAsync("_Navbar")
-    <h2>Product/Contact(MyView)</h2>
+    <!--partial sayfalar yukarıda ki gibi çağırıldığı gibi -->
+    <partial name="_Header">
+        <!--veya -->
+        @* @await Html.PartialAsync("_Header")*@
+        <h2>Product/Contact(MyView)</h2>
 </body>
 </html>

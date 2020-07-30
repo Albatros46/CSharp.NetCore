@@ -36,3 +36,4 @@ E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp2\ShopApp2.WebUI\obj\Debug\netco
 E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp2\ShopApp2.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Home\MyView.cshtml.g.cs
 E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp2\ShopApp2.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp2\ShopApp2.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Navbar.cshtml.g.cs
+E:\Dersler\Udemy-Sadık Turan\DotNetCore\ShopApp2\ShopApp2.WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Header.cshtml.g.cs

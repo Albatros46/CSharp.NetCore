@@ -10,6 +10,12 @@
 </head>
 <body> 
     @await Html.PartialAsync("_Navbar")
+    <!--partial sayfalar yukarıda ki gibi çağırıldığı gibi-->
+    <partial name="_Header"> <!--veya -->
+    @*Taghelper kullanabilmek için 
+    _ViewImport.cshtml içine @addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers yazarak taghelper i kullanıma acacağiz
+    *@
+    @* @await Html.PartialAsync("_Header")*@
     <h2>Product/Index</h2>
     <h3>@ViewData["Category"]</h3>
 

@@ -27,15 +27,9 @@
 </head>
 <body>
     @await Html.PartialAsync("_Navbar")
-  <header>
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">Shop App</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style 
-                component for calling extra attention to featured content or information.</p>
-            </div>
-        </div>
-    </header>
+    <!--partial sayfalar yukarıda ki gibi çağırıldığı gibi -->
+    <partial name="_Header"> <!--veya -->
+    @* @await Html.PartialAsync("_Header")*@
     <main>
         <div class="container">
             <div class="row">

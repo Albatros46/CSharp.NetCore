@@ -8,7 +8,11 @@
 </head>
 <body>
     @await Html.PartialAsync("_Navbar")
-    <h2>Home/Index</h2>
-    <p>@ViewBag.Greeting @ViewBag.UserName Nasılsınız?</p><!--Controller den dinamik veriyi çekiyoruz-->
+    <!--partial sayfalar yukarıda ki gibi çağırıldığı gibi -->
+    <partial name="_Header">
+        <!--veya -->
+        @* @await Html.PartialAsync("_Header")*@
+        <h2>Home/Index</h2>
+        <p>@ViewBag.Greeting @ViewBag.UserName Nasılsınız?</p><!--Controller den dinamik veriyi çekiyoruz-->
 </body>
 </html>
