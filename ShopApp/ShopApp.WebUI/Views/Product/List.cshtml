@@ -27,6 +27,21 @@
     </style>
 </head>
 <body>
+    <div class="navbar bg-primary navbar-dark navbar-expand-sm">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Ürünler</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Kategoriler</a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <header>
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
@@ -45,7 +60,7 @@
                     <h1 class="@popularClass">@category.Name</h1>
                 </div>
             </div>
-          
+
             @if (Model.Products.Count == 0)
             {
                 <div class="row">
@@ -58,22 +73,22 @@
             }
             else
             {
-        <div class="row">
-            @foreach (var p in product)
-            {
-                <div class="col-md-3">
-                    <div class="card">
-                        <img class="card-img-top" src="https://productimages.hepsiburada.net/s/31/375/10352775823410.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">@p.Name</h5>
-                            <p class="card-text">@p.Description</p>
-                            <a href="" class="btn btn-primary">İncele</a>
+                <div class="row">
+                    @foreach (var p in product)
+                    {
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img class="card-img-top" src="https://productimages.hepsiburada.net/s/31/375/10352775823410.jpg" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">@p.Name</h5>
+                                    <p class="card-text">@p.Description</p>
+                                    <a href="" class="btn btn-primary">İncele</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    }
                 </div>
-            }
-        </div>
-             
+
             }
         </div>
     </main>

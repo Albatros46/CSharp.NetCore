@@ -2,20 +2,36 @@
     <!--Kullanacağımız model in tam yolunu yazarak tanımlıyoruz-->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ürün Detayı</title>
-    </head>
-    <body>
-        <h2>Product/Details</h2>
-        <p>ViewBag ile tasarımı </p>
-        <p>Ürün Adı :@ViewBag.Name</p>
-        <p>Ürün Fiyatı :@ViewBag.Price</p>
-        <p>Ürün Hakkında :@ViewBag.Description</p>
-        <p>Model ile tasarımı</p>
-        <p>Ürün Adı :@Model.Name</p>
-        <p>Ürün Fiyatı :@Model.Price</p>
-        <p>Ürün Hakkında :@Model.Description</p>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürün Detayı</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="navbar bg-primary navbar-dark navbar-expand-sm">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Ürünler</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Kategoriler</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <h2>Product/Details</h2>
+    <p>ViewBag ile tasarımı </p>
+    <p>Ürün Adı :@ViewBag.Name</p>
+    <p>Ürün Fiyatı :@ViewBag.Price</p>
+    <p>Ürün Hakkında :@ViewBag.Description</p>
+    <p>Model ile tasarımı</p>
+    <p>Ürün Adı :@Model.Name</p>
+    <p>Ürün Fiyatı :@Model.Price</p>
+    <p>Ürün Hakkında :@Model.Description</p>
+</body>
 </html>
