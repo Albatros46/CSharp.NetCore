@@ -42,13 +42,8 @@
 
                 @if (Model.Products.Count == 0)
                 {
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="alert alert-danger">
-                                Listelenecek Ürün Yok!
-                            </div>
-                        </div>
-                    </div>
+                    <partial name="_NoProduct" /><!--veya-->
+                   @* @await Html.PartialAsync("_NoProduct") şeklinde de kullanılabilir. *@
                 }
                 else
                 {
@@ -56,18 +51,10 @@
                         @foreach (var p in product)
                         {
                             <div class="col-md-3">
-                                <div class="card">
-                                    <img class="card-img-top" src="https://productimages.hepsiburada.net/s/31/375/10352775823410.jpg" alt="">
-                                    <div class="card-body">
-                                        <h5 class="card-title">@p.Name</h5>
-                                        <p class="card-text">@p.Description</p>
-                                        <a href="" class="btn btn-primary">İncele</a>
-                                    </div>
-                                </div>
+                               @await Html.PartialAsync("_Product",p)
                             </div>
                         }
                     </div>
-
                 }
             </div>
         </main>
