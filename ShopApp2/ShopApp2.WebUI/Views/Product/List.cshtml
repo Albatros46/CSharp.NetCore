@@ -14,6 +14,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ürün Listesi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style>
         .popular{
             color:green;
@@ -25,83 +26,56 @@
     </style>
 </head>
 <body>
-    <h2>Product/List</h2>
-    <h1 class="@popularClass">@category.Name</h1>
-    <div>
-        <table border="1">
-            <thead>
-                <tr>
-                    <td>Ürün Adı</td>
-                    <td>Fiyatı</td>
-                    <td>Hakkında</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>@product[0].Name</td>
-                    <td>@product[0].Price</td>
-                    <td>@product[0].Description</td>
-                </tr>
-                <tr>
-                    <td>@product[1].Name</td>
-                    <td>@product[1].Price</td>
-                    <td>@product[1].Description</td>
-                </tr>
-                <tr>
-                    <td>@product[2].Name</td>
-                    <td>@product[2].Price</td>
-                    <td>@product[2].Description</td>
-                </tr>
-                <tr>
-                    <td>@Model.Products[3].Name</td>
-                    <td>@Model.Products[3].Price</td>
-                    <td>@Model.Products[3].Description</td>
-                </tr>
-                <tr>
-                    <td>@Model.Products[4].Name</td>
-                    <td>@Model.Products[4].Price</td>
-                    <td>@Model.Products[4].Description</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <p>ProductViewModel.cs de kategory ile product u birleştirdikten sonra model üzerinden
-    ProductViewModel ile verileri çekiyoruz.</p><br><hr>
-      <p>Razor: C# daki dongu ve değişken tanımlamalarnı html içersinde yapacağız.</p>
-    @if (Model.Products.Count == 0)
-    {
-        <p>Listelenecek Ürün Yok!</p>
-    }
-    else
-    {
-        <table border="1">
-            @foreach (var p in product)
+  <header>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Shop App</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style 
+                component for calling extra attention to featured content or information.</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="@popularClass">@category.Name</h1>
+                </div>
+            </div>
+   
+            @if (Model.Products.Count == 0)
             {
-                @if (p.isApproved)
-                {
-                 <tr>
-                    <td>@p.Name</td>
-                    <td>@p.Price</td>
-                    <td>@p.Description</td>
-                </tr>
-                } else{
-                    <p style="background-color: red;">Ürün Satışta Değil</p>
-                }
-            }
-        </table>
-        <hr />
-        <ul>
-            @foreach (var pro in product)
-            {
-                <li>
-                    <div>
-                        <p>@pro.Name</p>
-                        <p>@pro.Price</p>
-                        <p>@pro.Description</p>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="alert alert-danger">
+                            Listelenecek Ürün Yok!
+                        </div>
                     </div>
-                </li>
+                </div>
+                
             }
-        </ul>
-    }
+            else
+            {
+                <div class="row">
+                   
+                        @foreach (var p in product)
+                        {   
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img class="card-img-top" src="https://productimages.hepsiburada.net/s/31/375/10352775823410.jpg" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">@p.Name</h5>
+                                        <p class="card-text">@p.Description</p>
+                                        <a href="" class="btn btn-primary">İncele</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    
+                </div>
+               
+            }
+       </div>
+    </main>
 </body>
 </html>
